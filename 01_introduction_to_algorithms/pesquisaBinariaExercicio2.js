@@ -26,3 +26,5 @@ console.log(pesquisaBinaria(listaDeNomes, -1)); // null
 // Resposta: O número máximo de etapas seria de 8, pois 2^8 = 256. O número de etapas é igual ao logaritmo do número de itens na lista.
 
 // O logaritmo base 2 de 256 é 8. Isso significa que, se você precisar dividir repetidamente um conjunto de 256 itens pela metade, levará no máximo 8 etapas para reduzir o conjunto a um único item. Este é o motivo pelo qual a pesquisa binária, que divide o espaço de pesquisa pela metade a cada iteração, levará no máximo 8 etapas para encontrar um item ou determinar que ele não está presente em uma lista de 256 elementos.
+
+//Estes códigos não são os melhores por conta de valores alocados na memória, mas são suficientes para o entendimento do conceito. Ver o próximo código para uma implementação mais eficiente (bobNasaCode.js)
